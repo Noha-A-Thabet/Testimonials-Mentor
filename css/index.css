@@ -1,0 +1,314 @@
+/* start global varibales */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: #eee;
+}
+
+/* end global varibales */
+section div {
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+}
+
+section div img {
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    border: 2px solid lightgray;
+    width: 80px;
+}
+
+.container section {
+    display: grid;
+    grid-template-areas: "one one one  two three"
+        "four five five  five  three ";
+    grid-gap: 20px;
+}
+
+/* start one */
+.one {
+    background-color: rgba(82, 4, 82, 0.459);
+    padding: 20px;
+    position: relative;
+    grid-area: one;
+    height: fit-content;
+}
+
+.one .info {
+    position: absolute;
+    top: 28px;
+    left: 120px;
+}
+
+.one .info h4,
+.one .info span {
+    color: white;
+    font-weight: bold;
+}
+
+.one .info h4 {
+    FONT-SIZE: 16PX;
+}
+
+.one .info span {
+    font-size: 11px;
+    color: lightgray;
+    display: block;
+}
+
+.one .info span {
+    margin-top: -8px;
+}
+
+.one p {
+    color: white;
+    font-weight: bold;
+    margin-top: 10px;
+    margin-top: 20px;
+}
+
+.one q {
+    color: lightgray;
+    font-size: 12px;
+    display: block;
+}
+
+/* start two */
+.two {
+    background-color: rgb(65, 64, 64);
+    padding: 20px;
+    position: relative;
+    grid-area: two;
+    text-align: left;
+    padding-right: 30px;
+    height: fit-content;
+}
+
+.two .info {
+    position: absolute;
+    top: 36px;
+    left: 115px;
+
+}
+
+.two .info h4,
+.two .info span {
+    color: white;
+    font-weight: bold;
+}
+
+.two .info span {
+    margin-top: -8px;
+}
+
+.two .info h4 {
+    font-size: 16px;
+}
+
+.two .info span {
+    font-size: 11px;
+    color: lightgray;
+    display: block;
+}
+
+.two img {
+    width: 80px;
+}
+
+.two p {
+    color: white;
+    font-weight: bold;
+    margin-top: 19px;
+    font-size: 14px;
+
+}
+
+.two q {
+    color: lightgray;
+    font-size: 12px;
+    line-height: .5;
+    margin-top: 35px;
+}
+
+/* start htree */
+.three {
+    background-color: white;
+    grid-area: three;
+}
+
+.three {
+    padding: 20px;
+    position: relative;
+    grid-area: three;
+    text-align: left;
+    padding-right: 30px;
+    height: fit-content;
+}
+
+.three .info {
+    position: absolute;
+    top: 36px;
+    left: 115px;
+}
+
+.three .info h4,
+.three .info span {
+    color: rgba(0, 0, 0, 0.486);
+    font-weight: bold;
+}
+
+.three .info span {
+    margin-top: -8px;
+}
+
+.three .info h4 {
+    font-size: 16px;
+}
+
+.three .info span {
+    font-size: 11px;
+    color: lightgray;
+    display: block;
+}
+
+.three img {
+    width: 80px;
+}
+
+.three p {
+    font-weight: bold;
+    margin-top: 19px;
+    font-size: 14px;
+
+}
+
+.three q {
+    color: gray;
+    font-size: 12px;
+    line-height: .5;
+    margin-top: 35px;
+}
+
+
+/* start five */
+.four {
+    background-color: white;
+    grid-area: four;
+    position: relative;
+    padding: 20px;
+    text-align: left;
+    padding-right: 30px;
+    /* height: fit-content; */
+}
+
+.four .info {
+    position: absolute;
+    top: 35px;
+    right: 15px;
+}
+
+.four .info h4,
+.four .info span {
+    color: rgba(0, 0, 0, 0.486);
+    font-weight: bold;
+}
+
+.four .info span {
+    margin-top: -8px;
+}
+
+.four .info h4 {
+    font-size: 16px;
+    color: rgba(0, 0, 0, 0.507);
+}
+
+.four .info span {
+    font-size: 11px;
+    color: lightgray;
+    display: block;
+}
+
+.four img {
+    width: 80px;
+}
+
+.four p {
+    font-weight: bold;
+    margin-top: 19px;
+    font-size: 16px;
+    color: gray;
+}
+
+.four q {
+    color: gray;
+    font-size: 13px;
+    line-height: .5;
+    margin-top: 35px;
+}
+
+
+/* start six */
+.five {
+    background-color: black;
+    grid-area: five;
+    position: relative;
+    padding: 20px;
+    text-align: left;
+    padding-right: 30px;
+}
+
+.five .info {
+    position: absolute;
+    top: 36px;
+    left: 115px;
+}
+
+.five .info h4,
+.five .info span {
+    color: white;
+    font-weight: bold;
+}
+
+.five .info span {
+    margin-top: -8px;
+    color: gray;
+    display: block;
+
+}
+
+.five .info h4 {
+    font-size: 16px;
+}
+
+.five img {
+    width: 80px;
+}
+
+.five p {
+    font-weight: bold;
+    margin-top: 19px;
+    font-size: 16px;
+    color: white;
+
+}
+
+.five q {
+    color: white;
+    font-size: 13px;
+    line-height: .5;
+    margin-top: 35px;
+}
